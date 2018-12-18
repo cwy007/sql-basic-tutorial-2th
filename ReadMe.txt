@@ -1,83 +1,71 @@
 ------------------------------------------------------------
-±à³ÌÑ§Ï°ÏµÁÐ
-¡¶SQL»ù´¡½Ì³Ì µÚ2°æ¡·
+ç¼–ç¨‹å­¦ä¹ ç³»åˆ—
+ã€ŠSQLåŸºç¡€æ•™ç¨‹ ç¬¬2ç‰ˆã€‹
 
-ÏÂÔØÎÄ¼þ¼ò½é
+ä¸‹è½½æ–‡ä»¶ç®€ä»‹
 ------------------------------------------------------------
 
-¡ñÏÂÔØÎÄ¼þÄÚÈÝ
+â—ä¸‹è½½æ–‡ä»¶å†…å®¹
 
-ÏÂÔØÎÄ¼þ°üº¬ÁËÒÔÏÂÄÚÈÝ¡£
+ä¸‹è½½æ–‡ä»¶åŒ…å«äº†ä»¥ä¸‹å†…å®¹ã€‚
 
 :\
-©À©¤ReadMe.txt            ±¾ÎÄ¼þ
-©À©¤Sample                µÚ0ÕÂ¡«µÚ9ÕÂµÄÊ¾Àý³ÌÐò
-©¸©¤answer                Á·Ï°ÌâµÄSQLÓï¾äºÍ´ð°¸
+â”œâ”€ReadMe.txt            æœ¬æ–‡ä»¶
+â”œâ”€Sample                ç¬¬0ç« ï½žç¬¬9ç« çš„ç¤ºä¾‹ç¨‹åº
+â””â”€answer                ç»ƒä¹ é¢˜çš„SQLè¯­å¥å’Œç­”æ¡ˆ
 
-¡ðSampleÎÄ¼þ¼Ð
-±¾ÊéÖÐËùÊ¹ÓÃµÄÊ¾Àý³ÌÐò·Ö±ð±£´æÔÚÒÔÕÂ½ÚÎªµ¥Î»µÄÎÄ¼þ¼ÐÖÐ¡£ÔÚSample\CreateTableÎÄ¼þ¼ÐÖÐ£¬°´ÕÕRDBMSµÄ²»Í¬£¬·Ö±ð±£´æÁËÓÃÀ´´´½¨Ê¾ÀýÓÃ±íµÄSQLÓï¾ä¡£
+â—‹Sampleæ–‡ä»¶å¤¹
+æœ¬ä¹¦ä¸­æ‰€ä½¿ç”¨çš„ç¤ºä¾‹ç¨‹åºåˆ†åˆ«ä¿å­˜åœ¨ä»¥ç« èŠ‚ä¸ºå•ä½çš„æ–‡ä»¶å¤¹ä¸­ã€‚åœ¨Sample\CreateTableæ–‡ä»¶å¤¹ä¸­ï¼ŒæŒ‰ç…§RDBMSçš„ä¸åŒï¼Œåˆ†åˆ«ä¿å­˜äº†ç”¨æ¥åˆ›å»ºç¤ºä¾‹ç”¨è¡¨çš„SQLè¯­å¥ã€‚
 
 \Sample
- ©À©¤Ch00     µÚ0ÕÂµÄÊ¾Àý³ÌÐò
- ©À©¤Ch01     µÚ1ÕÂµÄÊ¾Àý³ÌÐò
- ©¦  ©À©¤1_4  1-4½ÚµÄÊ¾Àý³ÌÐò
- ©¦  ©¸©¤1_5  1-5½ÚµÄÊ¾Àý³ÌÐò
- ©¦      .
- ©¦      .
- ©¦      .
- ©¦
- ©À©¤Ch09     µÚ9ÕÂµÄÊ¾Àý³ÌÐò
- ©¦  ©À©¤9_2  9-2½ÚµÄÊ¾Àý³ÌÐò
- ©¦  ©¸©¤9_3  9-3½ÚµÄÊ¾Àý³ÌÐò
- ©¦
- ©¸©¤CreateTable  ´´½¨Ê¾ÀýÓÃ±íµÄSQLÓï¾ä
-     ©À©¤DB2
-     ©À©¤MySQL
-     ©À©¤Oracle
-     ©À©¤PostgreSQL
-     ©¸©¤SQLServer
+ â”œâ”€Ch00     ç¬¬0ç« çš„ç¤ºä¾‹ç¨‹åº
+ â”œâ”€Ch01     ç¬¬1ç« çš„ç¤ºä¾‹ç¨‹åº
+ â”‚  â”œâ”€1_4  1-4èŠ‚çš„ç¤ºä¾‹ç¨‹åº
+ â”‚  â””â”€1_5  1-5èŠ‚çš„ç¤ºä¾‹ç¨‹åº
+ â”‚      .
+ â”‚      .
+ â”‚      .
+ â”‚
+ â”œâ”€Ch09     ç¬¬9ç« çš„ç¤ºä¾‹ç¨‹åº
+ â”‚  â”œâ”€9_2  9-2èŠ‚çš„ç¤ºä¾‹ç¨‹åº
+ â”‚  â””â”€9_3  9-3èŠ‚çš„ç¤ºä¾‹ç¨‹åº
+ â”‚
+ â””â”€CreateTable  åˆ›å»ºç¤ºä¾‹ç”¨è¡¨çš„SQLè¯­å¥
+     â”œâ”€DB2
+     â”œâ”€MySQL
+     â”œâ”€Oracle
+     â”œâ”€PostgreSQL
+     â””â”€SQLServer
 
-¡ðanswerÎÄ¼þ¼Ð
-¸÷ÕÂÄ©Ï°ÌâµÄ´ð°¸£¨Ê¾Àý³ÌÐò£©£¬·Ö±ð±£´æÔÚÒÔÕÂ½ÚÎªµ¥Î»µÄÄ¿Â¼ÖÐ¡£
+â—‹answeræ–‡ä»¶å¤¹
+å„ç« æœ«ä¹ é¢˜çš„ç­”æ¡ˆï¼ˆç¤ºä¾‹ç¨‹åºï¼‰ï¼Œåˆ†åˆ«ä¿å­˜åœ¨ä»¥ç« èŠ‚ä¸ºå•ä½çš„ç›®å½•ä¸­ã€‚
 
 
-¡ñ¹ØÓÚÊ¾Àý³ÌÐò
+â—å…³äºŽç¤ºä¾‹ç¨‹åº
 
-Ê¾Àý³ÌÐòµÄÎÄ¼þÃû£¬ÓëÊéÖÐ¼ÇÊöµÄÁÐ±íºÅÂë£¨»òÕßÒ³ºÅ£©Ïà¶ÔÓ¦¡£ÀýÈç£¬1-5½Ú¼ÇÊöµÄ³ÌÐòÇåµ¥1-3µÄÊ¾Àý³ÌÐò£¬±£´æµÄÎ»ÖÃºÍÎÄ¼þÃûÈç
-ÏÂËùÊ¾¡£
+ç¤ºä¾‹ç¨‹åºçš„æ–‡ä»¶åï¼Œä¸Žä¹¦ä¸­è®°è¿°çš„åˆ—è¡¨å·ç ï¼ˆæˆ–è€…é¡µå·ï¼‰ç›¸å¯¹åº”ã€‚ä¾‹å¦‚ï¼Œ1-5èŠ‚è®°è¿°çš„ç¨‹åºæ¸…å•1-3çš„ç¤ºä¾‹ç¨‹åºï¼Œä¿å­˜çš„ä½ç½®å’Œæ–‡ä»¶åå¦‚
+ä¸‹æ‰€ç¤ºã€‚
 
 :\
-©¸©¤Sample
-    ©¸©¤Ch01
-        ©¸©¤1_5
-            ©¸©¤List1_3.sql
+â””â”€Sample
+    â””â”€Ch01
+        â””â”€1_5
+            â””â”€List1_3.sql
 
-´ËÍâ£¬Ïñ1-5½ÚµÄ´úÂëÇåµ¥1-4ÄÇÑù£¬ÔÚ²»Í¬µÄRDBMSÖÐ´æÔÚ²îÒìµÄSQLÓï¾ä£¬»áÏñÏÂÃæÕâÑù£¬ÔÚÆäÎÄ¼þÃûµÄÄ©Î²¼ÓÉÏRDBMSµÄÃû³Æ¡£
+æ­¤å¤–ï¼Œåƒ1-5èŠ‚çš„ä»£ç æ¸…å•1-4é‚£æ ·ï¼Œåœ¨ä¸åŒçš„RDBMSä¸­å­˜åœ¨å·®å¼‚çš„SQLè¯­å¥ï¼Œä¼šåƒä¸‹é¢è¿™æ ·ï¼Œåœ¨å…¶æ–‡ä»¶åçš„æœ«å°¾åŠ ä¸ŠRDBMSçš„åç§°ã€‚
 
 .List1_4_DB2_PostgreSQL_MySQL.sql
 .List1_4_Oracle.sql
 .List1_4_SQL Server.sql
 
-¡ð´´½¨Ê¾ÀýÓÃ±íµÄSQLÓï¾ä
-ÊÕÂ¼ÔÚSample\CreateTableÎÄ¼þ¼ÐÖ®ÖÐ£¬´´½¨±íÓÃµÄSQLÎÄ¼þÃû³ÆÎª¡°CreateTable<±íÃû>.sql"¡£
-ÀýÈç£¬PostgreSQLÓÃµ½µÄ±íProductµÄ×ö³ÉÎÄ¼þ±£´æÔÚÏÂÊöÄ¿Â¼ÖÐ¡£
+â—‹åˆ›å»ºç¤ºä¾‹ç”¨è¡¨çš„SQLè¯­å¥
+æ”¶å½•åœ¨Sample\CreateTableæ–‡ä»¶å¤¹ä¹‹ä¸­ï¼Œåˆ›å»ºè¡¨ç”¨çš„SQLæ–‡ä»¶åç§°ä¸ºâ€œCreateTable<è¡¨å>.sql"ã€‚
+ä¾‹å¦‚ï¼ŒPostgreSQLç”¨åˆ°çš„è¡¨Productçš„åšæˆæ–‡ä»¶ä¿å­˜åœ¨ä¸‹è¿°ç›®å½•ä¸­ã€‚
 
 :\
-©¸©¤Sample
-    ©¸©¤CreateTable
-        ©¸©¤PostgreSQL
-            ©¸©¤CreateTableProduct.sql
+â””â”€Sample
+    â””â”€CreateTable
+        â””â”€PostgreSQL
+            â””â”€CreateTableProduct.sql
 
-±£´æÔÚSampleÎÄ¼þÖÐµÄÊ¾Àý³ÌÐòÎÄ¼þ£¨À©Õ¹ÃûÎª¡°.sql¡±¡±.txt¡±£©£¬¿ÉÒÔÊ¹ÓÃWindowsµÄ¼ÇÊÂ±¾»òÕßÆäËûÎÄ±¾±à¼­Æ÷´ò¿ª¡£
-
-
-¡ñÉùÃ÷
-
-  ±¾ÊéÖÐµÄÊ¾Àý³ÌÐòÒÑ¾­±à¼­²¿È·ÈÏ£¬ÔÚÕý³£Ê¹ÓÃÊ±²»»á³öÏÖÈÎºÎÎÊÌâ¡£¶ÔÓÚÎÄ¼þÖ´ÐÐ½á¹ûËùÔì³ÉµÄÈÎºÎËðÊ§£¬±¾Êé×÷Õß¡¢Èí¼þ¿ª·¢ÈËÔ±ºÍÏè
-Ó¾¹«Ë¾¸Å²»³Ðµ£Ïà¹ØÔðÈÎ¡£
-  SampleÎÄ¼þ¼ÐÖÐËùÊÕÂ¼ÎÄ¼þµÄÖø×÷È¨¹é±¾Êé×÷ÕßËùÓÐ¡£¶ÁÕß¿ÉÒÔ³öÓÚ¸öÈËÄ¿µÄ£¬¸ù¾ÝÐèÒª×ÔÐÐÊ¹ÓÃºÍÐÞ¸ÄÆäÖÐµÄ³ÌÐò¡£
-  ¶ÔÓÚ¸ö±ð»·¾³Ïà¹ØµÄÎÊÌâ£¬ÒÔ¼°ÓÉ±¾Êé¶ÔÓ¦·¶Î§ÍâµÄ»·¾³ÉèÖÃËùÔì³ÉµÄÖ´ÐÐ´íÎó£¬±¾¹«Ë¾¸Å²»¸ºÔð½â´ð¡£
-
-
-
-                                              ÏèÓ¾ÓÐÏÞ¹«Ë¾
+ä¿å­˜åœ¨Sampleæ–‡ä»¶ä¸­çš„ç¤ºä¾‹ç¨‹åºæ–‡ä»¶ï¼ˆæ‰©å±•åä¸ºâ€œ.sqlâ€â€.txtâ€ï¼‰ï¼Œå¯ä»¥ä½¿ç”¨Windowsçš„è®°äº‹æœ¬æˆ–è€…å…¶ä»–æ–‡æœ¬ç¼–è¾‘å™¨æ‰“å¼€ã€‚

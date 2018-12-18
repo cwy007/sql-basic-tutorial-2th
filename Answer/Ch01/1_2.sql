@@ -11,11 +11,10 @@ ALTER TABLE Addressbook ADD postal_code CHAR(8) NOT NULL;
 
 
 /*
- [DB2] ÎÞ·¨Ìí¼Ó¡£
- ÔÚDB2ÖÐ£¬Èç¹ûÒªÎªÌí¼ÓµÄÁÐÉè¶¨NOT NULLÔ¼Êø£¬
- ÐèÒªÏñÏÂÃæÕâÑùÖ¸¶¨Ä¬ÈÏÖµ£¬»òÕßÉ¾³ýNOT NULLÔ¼Êø£¬
- ·ñÔò¾ÍÎÞ·¨Ìí¼ÓÐÂÁÐ¡£
-
+ [DB2] æ— æ³•æ·»åŠ ã€‚
+ åœ¨DB2ä¸­ï¼Œå¦‚æžœè¦ä¸ºæ·»åŠ çš„åˆ—è®¾å®šNOT NULLçº¦æŸï¼Œ
+ éœ€è¦åƒä¸‹é¢è¿™æ ·æŒ‡å®šé»˜è®¤å€¼ï¼Œæˆ–è€…åˆ é™¤NOT NULLçº¦æŸï¼Œ
+ å¦åˆ™å°±æ— æ³•æ·»åŠ æ–°åˆ—ã€‚
 */
--- [DB2 ÐÞÕý°æ]
+-- [DB2 ä¿®æ­£ç‰ˆ]
 ALTER TABLE Addressbook ADD COLUMN postal_code CHAR(8) NOT NULL DEFAULT '0000-000';
