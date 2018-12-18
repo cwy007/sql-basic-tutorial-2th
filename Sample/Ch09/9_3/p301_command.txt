@@ -1,0 +1,5 @@
+--编译
+C:\PostgreSQL\java\jdk\bin\javac DBConnect1.java
+
+--执行时指定JDBC驱动文件
+C:\PostgreSQL\java\jdk\bin\java -cp C:\PostgreSQL\jdbc\*;. DBConnect1

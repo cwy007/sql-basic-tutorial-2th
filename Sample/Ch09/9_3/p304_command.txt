@@ -1,0 +1,5 @@
+--±‡“Î
+C:\PostgreSQL\java\jdk\bin\javac DBConnect2.java
+
+--÷¥––
+C:\PostgreSQL\java\jdk\bin\java -cp C:\PostgreSQL\jdbc\*;. DBConnect2

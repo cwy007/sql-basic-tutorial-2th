@@ -1,0 +1,9 @@
+--cd命令(移动到指定文件夹)
+cd C:\PostgreSQL\java\src
+
+--javac命令(编译)
+C:\PostgreSQL\java\jdk\bin\javac Hello.java
+
+
+--java命令(执行)
+C:\PostgreSQL\java\jdk\bin\java Hello

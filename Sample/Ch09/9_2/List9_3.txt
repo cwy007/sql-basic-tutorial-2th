@@ -1,0 +1,6 @@
+/* List9-3 [常见错误] 使用全角空格 */
+public class Hello{
+丂   public static void main(String[] args){
+          system.out.print("Hello, World");
+     }
+}

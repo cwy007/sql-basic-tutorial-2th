@@ -1,0 +1,5 @@
+--±‡“Î
+C:\PostgreSQL\java\jdk\bin\javac DBUpd.java
+
+--÷¥––
+C:\PostgreSQL\java\jdk\bin\java -cp C:\PostgreSQL\jdbc\*;. DBUpd

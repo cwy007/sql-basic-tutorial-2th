@@ -1,0 +1,3 @@
+\q
+
+C:\PostgreSQL\9.5\bin\psql.exe -U postgres -d shop

@@ -1,0 +1,8 @@
+--源文件的文件名和类名不一致
+C:\PostgreSQL\java\jdk\bin\javac Test.java
+
+--命令或文件名错误
+C:\PostgreSQL\java\jdk\vin\java Hello
+
+--类名错误
+C:\PostgreSQL\java\jdk\bin\java Hallo
